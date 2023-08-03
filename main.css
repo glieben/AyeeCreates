@@ -9,12 +9,14 @@ body {
     display: flex;
     width: 90%;
     padding: 1% 5% 1% 5%;
-    font-size: clamp(0.8rem, 2.4vw, 5rem);
+    font-size: clamp(0.7rem, 2.4vw, 5rem);
     background-color: gray;
 }
 
 .navigator {
     width: calc(100%/3);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .navigator.logo {
@@ -23,10 +25,16 @@ body {
 
 .navigator.links {
     display: flex;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .navLink {
     width: 50%;
     border-right: 2px solid white;
     text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
