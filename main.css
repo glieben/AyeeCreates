@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* DELETE LATER MAYBE ^^^^^^^^^^^^^^^^^^^^^ */
+}
+
+.topNavigator {
+    display: flex;
+    width: 90%;
+    padding: 1% 5% 1% 5%;
+    font-size: clamp(0.8rem, 2.4vw, 5rem);
+    background-color: gray;
+}
+
+.navigator {
+    width: calc(100%/3);
+}
+
+.navigator.logo {
+    text-align: center;
+}
+
+.navigator.links {
+    display: flex;
+}
+
+.navLink {
+    width: 50%;
+    border-right: 0.18rem solid white;
+    text-align: center;
+}
