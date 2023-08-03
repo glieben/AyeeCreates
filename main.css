@@ -3,6 +3,10 @@ body {
     width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* DELETE LATER MAYBE ^^^^^^^^^^^^^^^^^^^^^ */
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .topNavigator {
@@ -10,7 +14,10 @@ body {
     width: 90%;
     padding: 1% 5% 1% 5%;
     font-size: clamp(0.7rem, 2.4vw, 5rem);
-    background-color: gray;
+    background-color: #1f2937;
+    height: 3%;
+    max-height: 3%;
+    color: white;
 }
 
 .navigator {
@@ -19,8 +26,20 @@ body {
     padding-bottom: 0.5%;
 }
 
+.navigator.name {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
 .navigator.logo {
     text-align: center;
+    padding: 0;
+}
+
+#logo {
+    width: auto;
+    height: 100%;
 }
 
 .navigator.links {
@@ -28,13 +47,92 @@ body {
     padding: 0;
     margin-top: auto;
     margin-bottom: auto;
+    font-size: clamp(0.7rem, 1.8vw, 5rem);
 }
 
 .navLink {
     width: 50%;
-    border-right: 2px solid white;
+    border-right: 1px solid white;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.welcomeMessage {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #232f3f;
+    color: white;
+}
+
+.purchasing {
+    padding: 4% 5% 4% 5%;
+    display: flex;
+}
+
+.productPreview {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    font-weight: bold;
+}
+
+.products {
+    flex-direction: row;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+}
+
+.product {
+    width: calc(80%/3);
+    text-align: center;
+}
+
+#productOne {
+    max-height: auto;
+    max-width: 100%;
+    border: #232f3f solid 1.5px;
+    border-radius: 5px;
+}
+
+#productTwo {
+    max-height: auto;
+    max-width: 100%;
+    border: #232f3f solid 1.5px;
+    border-radius: 5px;
+}
+
+#productThree {
+    max-height: auto;
+    max-width: 100%;
+    border: #232f3f solid 1.5px;
+    border-radius: 5px;
+}
+
+.customOrders {
+    width: 20%;
+    text-align: center;
+    background-color: #232f3f;
+    padding: 2%;
+    color: white;
+    border-radius: 8px ;
+    font-size: 1rem;
+}
+
+.flexbox {
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomInfo {
+    background-color: #1f2937;
+    flex-grow: 1;
 }
