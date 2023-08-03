@@ -27,6 +27,6 @@ body {
 
 .navLink {
     width: 50%;
-    border-right: 0.18rem solid white;
+    border-right: 2px solid white;
     text-align: center;
 }
