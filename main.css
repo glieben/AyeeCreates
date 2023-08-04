@@ -64,7 +64,7 @@ body {
     padding-bottom: 10%;
     padding-top: 10%;
     background-color: #232f3f;
-    font-size: clamp(0.7rem, 1.8rem, 5rem);
+    font-size: clamp(0.7rem, 1.6rem, 5rem);
     color: white;
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .bottomInfo {
-    height: 6%;
+    height: 7%;
     flex-direction: column;
     background-color: #1f2937;
     margin-top: auto;
