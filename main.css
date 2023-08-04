@@ -69,9 +69,9 @@ body {
 }
 
 .purchasing {
-    padding: 6% 5% 20% 5%;
+    padding: 6% 5% 6% 5%;
     display: flex;
-    height: 40%;
+    height: auto;
 }
 
 .productPreview {
