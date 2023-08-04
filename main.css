@@ -70,6 +70,7 @@ body {
 .purchasing {
     padding: 4% 5% 4% 5%;
     display: flex;
+    height: 30%;
 }
 
 .productPreview {
@@ -90,7 +91,7 @@ body {
 }
 
 .product {
-    width: calc(80%/3);
+    width: calc(80%/2);
     text-align: center;
 }
 
@@ -119,20 +120,18 @@ body {
     width: 20%;
     text-align: center;
     background-color: #232f3f;
-    padding: 2%;
+    padding: 6% 2% 6% 2%;
     color: white;
     border-radius: 8px ;
     font-size: 1rem;
-}
-
-.flexbox {
-    flex-shrink: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: fit-content;
+    margin: auto 0 auto 0;
 }
 
 .bottomInfo {
-    background-color: #1f2937;
+    flex-shrink: 0;
+    display: flex;
     flex-grow: 1;
+    flex-direction: column;
+    background-color: #1f2937;
 }
