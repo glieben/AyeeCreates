@@ -11,9 +11,9 @@ body {
 
 .topNavigator {
     display: flex;
-    width: 90%;
-    padding: 1.5% 5% 1.5% 5%;
-    font-size: clamp(0.7rem, 1.05rem, 5rem);
+    width: 92%;
+    padding: 1.5% 4% 1.5% 4%;
+    font-size: clamp(0.7rem, 0.9rem, 5rem);
     background-color: #1f2937;
     height: 4%;
     max-height: 4%;
@@ -47,7 +47,8 @@ body {
     padding: 0;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: clamp(0.8rem, 0.9rem, 5rem);
+    font-size: clamp(0.6rem, 0.7rem, 5rem);
+    height: 100%;
 }
 
 .navLink {
@@ -55,17 +56,40 @@ body {
     border-right: 1px solid white;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    margin: auto 0 auto 0;
+}
+
+.navLink.shop {
+    padding: 1% 4% 1% 0;
+}
+
+.navLink.about {
+    padding: 1% 5% 1% 4%;
+}
+
+.navLink.cart {
+    text-align: center;
+    padding: 0;
+    border-right: none;
+    display: flex;
+    height: 55%;
+}
+
+#cart {
+    width: auto;
+    height: 100%;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .welcomeMessage {
     text-align: center;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-top: 10%;
     background-color: #232f3f;
     font-size: clamp(0.7rem, 1.5rem, 5rem);
     color: white;
+    font-weight: bold;
 }
 
 .purchasing {
