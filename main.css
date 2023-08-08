@@ -61,6 +61,7 @@ body {
 
 .navLink.shop {
     padding: 1% 4% 1% 0;
+    margin-left: auto;
 }
 
 .navLink.about {
@@ -72,7 +73,9 @@ body {
     padding: 0;
     border-right: none;
     display: flex;
-    height: 55%;
+    height: 40%;
+    padding: 0 0 0 4%;
+    width: fit-content;
 }
 
 #cart {
